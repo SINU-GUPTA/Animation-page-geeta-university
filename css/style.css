@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@600&family=Roboto:wght@400;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+/* here we design nav bar with css  */
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: transparent;
+  padding: 0px 30px;
+}
+
+.nav-logo {
+  width: 35%;
+  float: left;
+}
+
+.nav-logo h1 {
+  font-size: 40px;
+  font-family: "roboto";
+  font-weight: bolder;
+  line-height: 75px;
+  color: #ffff;
+  letter-spacing: 2px;
+}
+
+nav h3 {
+  display: flex;
+  align-items: center;
+  float: left;
+  justify-content: center;
+  padding: 0 30px;
+  line-height: 80px;
+  color: lightgreen;
+  font-size: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.button {
+  float: right;
+}
+
+.bt2 {
+  padding: 20px 20px;
+  background-color: #ffff;
+  margin-top: 10px;
+  font-family: "roboto";
+  font-weight: 1000;
+  border: none;
+  border-radius: 4px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.bt2:hover{
+
+background-color: transparent;
+border: 1px solid #ffff;
+transition:.8s ;
+color: lightgreen;
+
+}
+
+.bt {
+  padding: 18px;
+  margin-top: 10px;
+  font-family: "roboto";
+  font-weight: 800;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  word-spacing: 1px;
+}
+
+.content {
+  text-align: center;
+  justify-content: center;
+  margin: 150px 0px;
+}
+
+.content h1 {
+  font-size: 120px;
+  color: #ffff;
+  text-transform: uppercase;
+  line-height: 130px;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.content h1:nth-child(1):hover {
+  -webkit-text-stroke: 0.8px lightgreen;
+  color: transparent;
+  cursor: pointer;
+}
+
+.content h1:nth-child(1) {
+  line-height: 180px;
+  color: lightgreen;
+  word-spacing: 50px;
+}
+
+.content span {
+  width: 210px;
+  height: 20px;
+  font-size: 25px;
+  color: white;
+  padding: 20px;
+  justify-content: center;
+  border-radius: 50px;
+  object-position: center;
+  border: 2px solid lightgreen;
+  line-height: 100px;
+  margin: 0px 5px;
+}
+
+.content span:hover {
+  color: black;
+  font-weight: 900;
+  background-color: lightgreen;
+  border: 2px solid white;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.scroll-bt h5 {
+  color: #ffff;
+  font-size: 18px;
+  position: absolute;
+  left: 50%;
+  bottom: 6%;
+  transform: translate(-50%, 0);
+}
+
+.video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
