@@ -31,7 +31,7 @@ nav {
   font-family: "roboto";
   font-weight: bolder;
   line-height: 75px;
-  color: #ffff;
+  color: rgb(243, 173, 32);
   letter-spacing: 2px;
 }
 
@@ -46,6 +46,11 @@ nav h3 {
   font-size: 15px;
   letter-spacing: 1px;
   cursor: pointer;
+}
+
+nav h3:hover {
+  color: #ffff;
+  transition: 0.5s;
 }
 
 .button {
@@ -65,13 +70,11 @@ nav h3 {
   cursor: pointer;
 }
 
-.bt2:hover{
-
-background-color: transparent;
-border: 1px solid #ffff;
-transition:.8s ;
-color: lightgreen;
-
+.bt2:hover {
+  background-color: transparent;
+  border: 1px solid #ffff;
+  transition: 0.8s;
+  color: lightgreen;
 }
 
 .bt {
@@ -109,11 +112,20 @@ color: lightgreen;
   color: transparent;
   cursor: pointer;
 }
+.content h1:nth-child(3):hover {
+  -webkit-text-stroke: 0.2px orange;
+  color: transparent;
+  cursor: pointer;
+}
 
 .content h1:nth-child(1) {
   line-height: 180px;
   color: lightgreen;
   word-spacing: 50px;
+}
+.content h1:nth-child(3) {
+  color: orange;
+  letter-spacing: 2px;
 }
 
 .content span {
@@ -137,6 +149,8 @@ color: lightgreen;
   border: 2px solid white;
   transition: 1s;
   cursor: pointer;
+
+  margin: 0 50px;
 }
 
 .scroll-bt h5 {
@@ -156,3 +170,89 @@ color: lightgreen;
   min-height: 100%;
   z-index: -1;
 }
+
+#main
+{
+
+position: relative;
+
+}
+
+
+
+#page1
+{
+background: #ffff;
+position: absolute;
+height: 70vh;
+width: 100%;
+text-align: center;
+
+}
+
+.page1content
+{
+  
+  padding: 5rem 13rem;
+
+  
+  
+}
+.page1content h3
+{
+text-align: center;
+align-items: center;
+color: navy;
+font-size: 40px;
+font-weight: bolder;
+letter-spacing: 1px;
+animation: blink 1s linear infinite;
+animation-duration: 1.5s;
+
+
+
+}
+
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: 1;}
+100%{opacity: 2;}
+}
+
+.page1content p{
+margin-top: 30px;
+justify-content: center;
+text-align: justify;
+text-align-last:center ;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+line-height: 21px
+}
+
+.page1content h4{
+
+margin-top: 30px;
+text-align: center;
+font-size: 20px;
+color: rgb(203, 37, 37);
+margin-bottom: 40px;
+
+
+}
+
+.page1content button{
+
+margin-top:50px;
+display: block;
+margin: 0 auto;
+padding: 10px 25px;
+color: white;
+font-size: 15px;
+line-height: 21px;
+background-color: #141853;
+border-radius: 6px;
+cursor: pointer;
+
+
+}
+

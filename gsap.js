@@ -20,9 +20,9 @@ y:-100,
 opacity:1,
 // stagger:,
 delay:1,
-duration:1
-
-
+duration:1,
+ease: 'none',
+stagger: 0.5,
 
 })
 
@@ -42,3 +42,4 @@ yoyo:true
 
 
 })
+
